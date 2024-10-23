@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "genius-chat-expo": ["../src/index"],
+      "genius-chat-expo/*": ["../src/*"]
+    }
+  }
+}
