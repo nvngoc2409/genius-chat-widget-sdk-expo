@@ -41,3 +41,13 @@ android {
     abortOnError false
   }
 }
+
+repositories {
+	mavenCentral()
+	maven { url 'https://jitpack.io' }
+}
+dependencies {
+  implementation 'com.github.DigitalGenius:genius-chat-widget-sdk-android:v3.3.2'
+  implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
+  implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+}

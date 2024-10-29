@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.source         = { git: 'https://github.com/DigitalGenius/genius-chat-widget-expo-sdk' }
   s.static_framework = true
 
+  s.vendored_frameworks = 'vendor/DGChatSDK.xcframework'
   s.dependency 'ExpoModulesCore'
 
   # Swift/Objective-C compatibility

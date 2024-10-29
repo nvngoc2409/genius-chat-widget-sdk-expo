@@ -1,6 +1,6 @@
 {
   "name": "genius-chat-expo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Digital Genius Chat Expo Module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -21,14 +21,17 @@
     "genius-chat-expo",
     "DGChatModule"
   ],
-  "repository": "https://github.com/DigitalGenius/genius-chat-widget-expo-sdk",
+  "repository": "https://github.com/DigitalGenius/genius-chat-widget-sdk-expo",
   "bugs": {
-    "url": "https://github.com/DigitalGenius/genius-chat-widget-expo-sdk/issues"
+    "url": "https://github.com/DigitalGenius/genius-chat-widget-sdk-expo/issues"
   },
   "author": "Digital Genius <info@digiruu.com> (https://github.com/DigitalGenius)",
   "license": "MIT",
-  "homepage": "https://github.com/DigitalGenius/genius-chat-widget-expo-sdk#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/DigitalGenius/genius-chat-widget-sdk-expo#readme",
+  "dependencies": {
+    "@react-native-community/cli-platform-ios": "^15.0.0",
+    "expo": "^51.0.38"
+  },
   "devDependencies": {
     "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.5.2",

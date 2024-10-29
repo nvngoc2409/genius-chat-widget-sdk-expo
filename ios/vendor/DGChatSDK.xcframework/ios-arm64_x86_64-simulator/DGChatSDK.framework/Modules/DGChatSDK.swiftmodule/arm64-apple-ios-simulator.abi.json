@@ -1,0 +1,5045 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DGChatSDK",
+    "printedName": "DGChatSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DGChat",
+        "printedName": "DGChat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isPresented",
+            "printedName": "isPresented",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A0C11isPresentedSbvpZ",
+            "mangledName": "$s9DGChatSDK0A0C11isPresentedSbvpZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A0C11isPresentedSbvgZ",
+                "mangledName": "$s9DGChatSDK0A0C11isPresentedSbvgZ",
+                "moduleName": "DGChatSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any DGChatSDK.DGChatDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatDelegate",
+                    "printedName": "any DGChatSDK.DGChatDelegate",
+                    "usr": "s:9DGChatSDK0A8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A0C8delegateAA0A8Delegate_pSgvpZ",
+            "mangledName": "$s9DGChatSDK0A0C8delegateAA0A8Delegate_pSgvpZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any DGChatSDK.DGChatDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatDelegate",
+                        "printedName": "any DGChatSDK.DGChatDelegate",
+                        "usr": "s:9DGChatSDK0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A0C8delegateAA0A8Delegate_pSgvgZ",
+                "mangledName": "$s9DGChatSDK0A0C8delegateAA0A8Delegate_pSgvgZ",
+                "moduleName": "DGChatSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any DGChatSDK.DGChatDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatDelegate",
+                        "printedName": "any DGChatSDK.DGChatDelegate",
+                        "usr": "s:9DGChatSDK0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A0C8delegateAA0A8Delegate_pSgvsZ",
+                "mangledName": "$s9DGChatSDK0A0C8delegateAA0A8Delegate_pSgvsZ",
+                "moduleName": "DGChatSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A0C8delegateAA0A8Delegate_pSgvMZ",
+                "mangledName": "$s9DGChatSDK0A0C8delegateAA0A8Delegate_pSgvMZ",
+                "moduleName": "DGChatSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "prepare",
+            "printedName": "prepare(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIView?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIView",
+                            "printedName": "UIKit.UIView",
+                            "usr": "c:objc(cs)UIView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C7prepareyyySo6UIViewCSgcSgFZ",
+            "mangledName": "$s9DGChatSDK0A0C7prepareyyySo6UIViewCSgcSgFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "added",
+            "printedName": "added(to:animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIView) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C5added2to8animated10completionySo16UIViewControllerC_SbySo0G0CcSgtFZ",
+            "mangledName": "$s9DGChatSDK0A0C5added2to8animated10completionySo16UIViewControllerC_SbySo0G0CcSgtFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "added",
+            "printedName": "added(to:animted:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIView) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIView) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C5added2to7animted10completionySo6UIViewC_SbyAIcSgtFZ",
+            "mangledName": "$s9DGChatSDK0A0C5added2to7animted10completionySo6UIViewC_SbyAIcSgtFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide(animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C4hide8animated10completionySb_yycSgtFZ",
+            "mangledName": "$s9DGChatSDK0A0C4hide8animated10completionySb_yycSgtFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prepare",
+            "printedName": "prepare()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C7prepareSo6UIViewCSgyYaFZ",
+            "mangledName": "$s9DGChatSDK0A0C7prepareSo6UIViewCSgyYaFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "added",
+            "printedName": "added(to:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C5added2to8animatedSo6UIViewCSo0F10ControllerC_SbtYaFZ",
+            "mangledName": "$s9DGChatSDK0A0C5added2to8animatedSo6UIViewCSo0F10ControllerC_SbtYaFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "added",
+            "printedName": "added(to:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C5added2to8animatedSo6UIViewCAH_SbtYaFZ",
+            "mangledName": "$s9DGChatSDK0A0C5added2to8animatedSo6UIViewCAH_SbtYaFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide(animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C4hide8animatedySb_tYaFZ",
+            "mangledName": "$s9DGChatSDK0A0C4hide8animatedySb_tYaFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendMessage",
+            "printedName": "sendMessage(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C11sendMessage_10completionySS_ys6ResultOyyts5Error_pGctFZ",
+            "mangledName": "$s9DGChatSDK0A0C11sendMessage_10completionySS_ys6ResultOyyts5Error_pGctFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendSystemMessage",
+            "printedName": "sendSystemMessage(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C17sendSystemMessage_10completionySDySSypG_ys6ResultOyyts5Error_pGctFZ",
+            "mangledName": "$s9DGChatSDK0A0C17sendSystemMessage_10completionySDySSypG_ys6ResultOyyts5Error_pGctFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendSystemMessage",
+            "printedName": "sendSystemMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C17sendSystemMessageyySDySSypGYaKFZ",
+            "mangledName": "$s9DGChatSDK0A0C17sendSystemMessageyySDySSypGYaKFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendMessage",
+            "printedName": "sendMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C11sendMessageyySSYaKFZ",
+            "mangledName": "$s9DGChatSDK0A0C11sendMessageyySSYaKFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "expandWidget",
+            "printedName": "expandWidget(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C12expandWidgetyyys6ResultOyyts5Error_pGcFZ",
+            "mangledName": "$s9DGChatSDK0A0C12expandWidgetyyys6ResultOyyts5Error_pGcFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchWidget",
+            "printedName": "launchWidget()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C12launchWidgetyyYaKFZ",
+            "mangledName": "$s9DGChatSDK0A0C12launchWidgetyyYaKFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initProactiveButtons",
+            "printedName": "initProactiveButtons(questions:answers:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C20initProactiveButtons9questions7answers10completionySaySSG_AHys6ResultOyyts5Error_pGctFZ",
+            "mangledName": "$s9DGChatSDK0A0C20initProactiveButtons9questions7answers10completionySaySSG_AHys6ResultOyyts5Error_pGctFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initProactiveButtons",
+            "printedName": "initProactiveButtons(questions:answers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C20initProactiveButtons9questions7answersySaySSG_AGtYaKFZ",
+            "mangledName": "$s9DGChatSDK0A0C20initProactiveButtons9questions7answersySaySSG_AGtYaKFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minimizeWidget",
+            "printedName": "minimizeWidget(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C14minimizeWidgetyyys6ResultOyyts5Error_pGcFZ",
+            "mangledName": "$s9DGChatSDK0A0C14minimizeWidgetyyys6ResultOyyts5Error_pGcFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minimizeWidget",
+            "printedName": "minimizeWidget()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C14minimizeWidgetyyYaKFZ",
+            "mangledName": "$s9DGChatSDK0A0C14minimizeWidgetyyYaKFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetChat",
+            "printedName": "resetChat(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C9resetChatyyys6ResultOyyts5Error_pGcFZ",
+            "mangledName": "$s9DGChatSDK0A0C9resetChatyyys6ResultOyyts5Error_pGcFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetChat",
+            "printedName": "resetChat()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A0C9resetChatyyYaKFZ",
+            "mangledName": "$s9DGChatSDK0A0C9resetChatyyYaKFZ",
+            "moduleName": "DGChatSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9DGChatSDK0A0C",
+        "mangledName": "$s9DGChatSDK0A0C",
+        "moduleName": "DGChatSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DGChatAction",
+        "printedName": "DGChatAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onChatMinimizeClick",
+            "printedName": "onChatMinimizeClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO19onChatMinimizeClickyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO19onChatMinimizeClickyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onChatLauncherClick",
+            "printedName": "onChatLauncherClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO19onChatLauncherClickyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO19onChatLauncherClickyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onChatEndClick",
+            "printedName": "onChatEndClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO14onChatEndClickyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO14onChatEndClickyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onChatProactiveButtonClick",
+            "printedName": "onChatProactiveButtonClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO26onChatProactiveButtonClickyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO26onChatProactiveButtonClickyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onCSATPopoverCloseClicked",
+            "printedName": "onCSATPopoverCloseClicked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO25onCSATPopoverCloseClickedyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO25onCSATPopoverCloseClickedyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onCSATPopoverSubmitClicked",
+            "printedName": "onCSATPopoverSubmitClicked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO26onCSATPopoverSubmitClickedyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO26onCSATPopoverSubmitClickedyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onWidgetEmbedded",
+            "printedName": "onWidgetEmbedded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO16onWidgetEmbeddedyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO16onWidgetEmbeddedyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onChatInitialised",
+            "printedName": "onChatInitialised",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO17onChatInitialisedyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO17onChatInitialisedyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onChatInitialisedError",
+            "printedName": "onChatInitialisedError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO22onChatInitialisedErroryA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO22onChatInitialisedErroryA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "newConversationStarted",
+            "printedName": "newConversationStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DGChatSDK.DGChatAction.Type) -> DGChatSDK.DGChatAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DGChatSDK.DGChatAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9DGChatSDK0A6ActionO22newConversationStartedyA2CmF",
+            "mangledName": "$s9DGChatSDK0A6ActionO22newConversationStartedyA2CmF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DGChatSDK.DGChatAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9DGChatSDK0A6ActionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9DGChatSDK0A6ActionO8rawValueACSgSS_tcfc",
+            "moduleName": "DGChatSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A6ActionO8rawValueSSvp",
+            "mangledName": "$s9DGChatSDK0A6ActionO8rawValueSSvp",
+            "moduleName": "DGChatSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A6ActionO8rawValueSSvg",
+                "mangledName": "$s9DGChatSDK0A6ActionO8rawValueSSvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9DGChatSDK0A6ActionO",
+        "mangledName": "$s9DGChatSDK0A6ActionO",
+        "moduleName": "DGChatSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DGChatDelegate",
+        "printedName": "DGChatDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didTrack",
+            "printedName": "didTrack(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DGChatAction",
+                "printedName": "DGChatSDK.DGChatAction",
+                "usr": "s:9DGChatSDK0A6ActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A8DelegateP8didTrack6actionyAA0A6ActionO_tF",
+            "mangledName": "$s9DGChatSDK0A8DelegateP8didTrack6actionyAA0A6ActionO_tF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+            "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didAttemptToOpen",
+            "printedName": "didAttemptToOpen(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A8DelegateP16didAttemptToOpen3urly10Foundation3URLV_tF",
+            "mangledName": "$s9DGChatSDK0A8DelegateP16didAttemptToOpen3urly10Foundation3URLV_tF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+            "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailWith",
+            "printedName": "didFailWith(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A8DelegateP11didFailWith5errorys5Error_p_tF",
+            "mangledName": "$s9DGChatSDK0A8DelegateP11didFailWith5errorys5Error_p_tF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+            "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "widgetId",
+            "printedName": "widgetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A8DelegateP8widgetIdSSvp",
+            "mangledName": "$s9DGChatSDK0A8DelegateP8widgetIdSSvp",
+            "moduleName": "DGChatSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A8DelegateP8widgetIdSSvg",
+                "mangledName": "$s9DGChatSDK0A8DelegateP8widgetIdSSvg",
+                "moduleName": "DGChatSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+                "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "env",
+            "printedName": "env",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A8DelegateP3envSSvp",
+            "mangledName": "$s9DGChatSDK0A8DelegateP3envSSvp",
+            "moduleName": "DGChatSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A8DelegateP3envSSvg",
+                "mangledName": "$s9DGChatSDK0A8DelegateP3envSSvg",
+                "moduleName": "DGChatSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+                "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "crmCredentials",
+            "printedName": "crmCredentials",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatCRMCredentials",
+                    "printedName": "DGChatSDK.DGChatCRMCredentials",
+                    "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A8DelegateP14crmCredentialsAA0A14CRMCredentialsVSgvp",
+            "mangledName": "$s9DGChatSDK0A8DelegateP14crmCredentialsAA0A14CRMCredentialsVSgvp",
+            "moduleName": "DGChatSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatCRMCredentials",
+                        "printedName": "DGChatSDK.DGChatCRMCredentials",
+                        "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A8DelegateP14crmCredentialsAA0A14CRMCredentialsVSgvg",
+                "mangledName": "$s9DGChatSDK0A8DelegateP14crmCredentialsAA0A14CRMCredentialsVSgvg",
+                "moduleName": "DGChatSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+                "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "configs",
+            "printedName": "configs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A8DelegateP7configsSDySSypGSgvp",
+            "mangledName": "$s9DGChatSDK0A8DelegateP7configsSDySSypGSgvp",
+            "moduleName": "DGChatSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A8DelegateP7configsSDySSypGSgvg",
+                "mangledName": "$s9DGChatSDK0A8DelegateP7configsSDySSypGSgvg",
+                "moduleName": "DGChatSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+                "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didAttemptToOpen",
+            "printedName": "didAttemptToOpen(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A8DelegatePAASo16UIViewControllerCRbzrlE16didAttemptToOpen3urly10Foundation3URLV_tF",
+            "mangledName": "$s9DGChatSDK0A8DelegatePAASo16UIViewControllerCRbzrlE16didAttemptToOpen3urly10Foundation3URLV_tF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController, τ_0_0 : DGChatSDK.DGChatDelegate>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIViewController, Self : DGChatSDK.DGChatDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didTrack",
+            "printedName": "didTrack(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DGChatAction",
+                "printedName": "DGChatSDK.DGChatAction",
+                "usr": "s:9DGChatSDK0A6ActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A8DelegatePAAE8didTrack6actionyAA0A6ActionO_tF",
+            "mangledName": "$s9DGChatSDK0A8DelegatePAAE8didTrack6actionyAA0A6ActionO_tF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+            "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didAttemptToOpen",
+            "printedName": "didAttemptToOpen(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A8DelegatePAAE16didAttemptToOpen3urly10Foundation3URLV_tF",
+            "mangledName": "$s9DGChatSDK0A8DelegatePAAE16didAttemptToOpen3urly10Foundation3URLV_tF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+            "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailWith",
+            "printedName": "didFailWith(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK0A8DelegatePAAE11didFailWith5errorys5Error_p_tF",
+            "mangledName": "$s9DGChatSDK0A8DelegatePAAE11didFailWith5errorys5Error_p_tF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+            "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "crmCredentials",
+            "printedName": "crmCredentials",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatCRMCredentials",
+                    "printedName": "DGChatSDK.DGChatCRMCredentials",
+                    "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A8DelegatePAAE14crmCredentialsAA0A14CRMCredentialsVSgvp",
+            "mangledName": "$s9DGChatSDK0A8DelegatePAAE14crmCredentialsAA0A14CRMCredentialsVSgvp",
+            "moduleName": "DGChatSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatCRMCredentials",
+                        "printedName": "DGChatSDK.DGChatCRMCredentials",
+                        "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A8DelegatePAAE14crmCredentialsAA0A14CRMCredentialsVSgvg",
+                "mangledName": "$s9DGChatSDK0A8DelegatePAAE14crmCredentialsAA0A14CRMCredentialsVSgvg",
+                "moduleName": "DGChatSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : DGChatSDK.DGChatDelegate>",
+                "sugared_genericSig": "<Self where Self : DGChatSDK.DGChatDelegate>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9DGChatSDK0A8DelegateP",
+        "mangledName": "$s9DGChatSDK0A8DelegateP",
+        "moduleName": "DGChatSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DGChatCRMCredentials",
+        "printedName": "DGChatCRMCredentials",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A14CRMCredentialsV8platformSSvp",
+            "mangledName": "$s9DGChatSDK0A14CRMCredentialsV8platformSSvp",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A14CRMCredentialsV8platformSSvg",
+                "mangledName": "$s9DGChatSDK0A14CRMCredentialsV8platformSSvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK0A14CRMCredentialsV7versionSSvp",
+            "mangledName": "$s9DGChatSDK0A14CRMCredentialsV7versionSSvp",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK0A14CRMCredentialsV7versionSSvg",
+                "mangledName": "$s9DGChatSDK0A14CRMCredentialsV7versionSSvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(platform:version:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DGChatCRMCredentials",
+                "printedName": "DGChatSDK.DGChatCRMCredentials",
+                "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9DGChatSDK0A14CRMCredentialsV8platform7versionACSS_SStcfc",
+            "mangledName": "$s9DGChatSDK0A14CRMCredentialsV8platform7versionACSS_SStcfc",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9DGChatSDK0A14CRMCredentialsV",
+        "mangledName": "$s9DGChatSDK0A14CRMCredentialsV",
+        "moduleName": "DGChatSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftSoup",
+        "printedName": "SwiftSoup",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GeniusChatView",
+        "printedName": "GeniusChatView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "widgetId",
+            "printedName": "widgetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK14GeniusChatViewV8widgetIdSSvp",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV8widgetIdSSvp",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV8widgetIdSSvg",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV8widgetIdSSvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "env",
+            "printedName": "env",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK14GeniusChatViewV3envSSvp",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV3envSSvp",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV3envSSvg",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV3envSSvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "crmCredentials",
+            "printedName": "crmCredentials",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatCRMCredentials",
+                    "printedName": "DGChatSDK.DGChatCRMCredentials",
+                    "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK14GeniusChatViewV14crmCredentialsAA0A14CRMCredentialsVSgvp",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV14crmCredentialsAA0A14CRMCredentialsVSgvp",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatCRMCredentials",
+                        "printedName": "DGChatSDK.DGChatCRMCredentials",
+                        "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV14crmCredentialsAA0A14CRMCredentialsVSgvg",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV14crmCredentialsAA0A14CRMCredentialsVSgvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onURLTap",
+            "printedName": "onURLTap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URL) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK14GeniusChatViewV8onURLTapy10Foundation3URLVcSgvp",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV8onURLTapy10Foundation3URLVcSgvp",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URL) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV8onURLTapy10Foundation3URLVcSgvg",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV8onURLTapy10Foundation3URLVcSgvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.URL) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV8onURLTapy10Foundation3URLVcSgvs",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV8onURLTapy10Foundation3URLVcSgvs",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV8onURLTapy10Foundation3URLVcSgvM",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV8onURLTapy10Foundation3URLVcSgvM",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onChatAction",
+            "printedName": "onChatAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((DGChatSDK.DGChatAction) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DGChatSDK.DGChatAction) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK14GeniusChatViewV02onD6ActionyAA0aG0OcSgvp",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV02onD6ActionyAA0aG0OcSgvp",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((DGChatSDK.DGChatAction) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(DGChatSDK.DGChatAction) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DGChatAction",
+                            "printedName": "DGChatSDK.DGChatAction",
+                            "usr": "s:9DGChatSDK0A6ActionO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV02onD6ActionyAA0aG0OcSgvg",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV02onD6ActionyAA0aG0OcSgvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((DGChatSDK.DGChatAction) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(DGChatSDK.DGChatAction) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DGChatAction",
+                            "printedName": "DGChatSDK.DGChatAction",
+                            "usr": "s:9DGChatSDK0A6ActionO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV02onD6ActionyAA0aG0OcSgvs",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV02onD6ActionyAA0aG0OcSgvs",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV02onD6ActionyAA0aG0OcSgvM",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV02onD6ActionyAA0aG0OcSgvM",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onFailure",
+            "printedName": "onFailure",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DGChatSDK14GeniusChatViewV9onFailureys5Error_pcSgvp",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV9onFailureys5Error_pcSgvp",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV9onFailureys5Error_pcSgvg",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV9onFailureys5Error_pcSgvg",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV9onFailureys5Error_pcSgvs",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV9onFailureys5Error_pcSgvs",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV9onFailureys5Error_pcSgvM",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV9onFailureys5Error_pcSgvM",
+                "moduleName": "DGChatSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(widgetId:env:configs:crmCredenrials:onURLTap:onChatAction:onFailure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GeniusChatView",
+                "printedName": "DGChatSDK.GeniusChatView",
+                "usr": "s:9DGChatSDK14GeniusChatViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatCRMCredentials",
+                    "printedName": "DGChatSDK.DGChatCRMCredentials",
+                    "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URL) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((DGChatSDK.DGChatAction) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DGChatSDK.DGChatAction) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatAction",
+                        "printedName": "DGChatSDK.DGChatAction",
+                        "usr": "s:9DGChatSDK0A6ActionO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9DGChatSDK14GeniusChatViewV8widgetId3env7configs14crmCredenrials8onURLTap0lD6Action0L7FailureACSS_SSSDySSypGSgAA0A14CRMCredentialsVSgy10Foundation3URLVcSgyAA0aN0OcSgys5Error_pcSgtcfc",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV8widgetId3env7configs14crmCredenrials8onURLTap0lD6Action0L7FailureACSS_SSSDySSypGSgAA0A14CRMCredentialsVSgy10Foundation3URLVcSgyAA0aN0OcSgys5Error_pcSgtcfc",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<DGChatSDK.GeniusChatView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GeniusChatView",
+                    "printedName": "DGChatSDK.GeniusChatView",
+                    "usr": "s:9DGChatSDK14GeniusChatViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK14GeniusChatViewV10makeUIView7contextSo0G0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV10makeUIView7contextSo0G0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<DGChatSDK.GeniusChatView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GeniusChatView",
+                    "printedName": "DGChatSDK.GeniusChatView",
+                    "usr": "s:9DGChatSDK14GeniusChatViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK14GeniusChatViewV12updateUIView_7contextySo0G0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV12updateUIView_7contextySo0G0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "DGChatSDK.GeniusChatView.Coordinator",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DGChatSDK14GeniusChatViewV15makeCoordinatorAC0G0CyF",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV15makeCoordinatorAC0G0CyF",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "didTrack",
+                "printedName": "didTrack(action:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DGChatAction",
+                    "printedName": "DGChatSDK.DGChatAction",
+                    "usr": "s:9DGChatSDK0A6ActionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC8didTrack6actionyAA0A6ActionO_tF",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC8didTrack6actionyAA0A6ActionO_tF",
+                "moduleName": "DGChatSDK",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "didAttemptToOpen",
+                "printedName": "didAttemptToOpen(url:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC16didAttemptToOpen3urly10Foundation3URLV_tF",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC16didAttemptToOpen3urly10Foundation3URLV_tF",
+                "moduleName": "DGChatSDK",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "didFailWith",
+                "printedName": "didFailWith(error:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC11didFailWith5errorys5Error_p_tF",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC11didFailWith5errorys5Error_p_tF",
+                "moduleName": "DGChatSDK",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "widgetId",
+                "printedName": "widgetId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC8widgetIdSSvp",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC8widgetIdSSvp",
+                "moduleName": "DGChatSDK",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC8widgetIdSSvg",
+                    "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC8widgetIdSSvg",
+                    "moduleName": "DGChatSDK",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "env",
+                "printedName": "env",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC3envSSvp",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC3envSSvp",
+                "moduleName": "DGChatSDK",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC3envSSvg",
+                    "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC3envSSvg",
+                    "moduleName": "DGChatSDK",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "crmCredentials",
+                "printedName": "crmCredentials",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DGChatCRMCredentials",
+                        "printedName": "DGChatSDK.DGChatCRMCredentials",
+                        "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC14crmCredentialsAA0A14CRMCredentialsVSgvp",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC14crmCredentialsAA0A14CRMCredentialsVSgvp",
+                "moduleName": "DGChatSDK",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DGChatSDK.DGChatCRMCredentials?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DGChatCRMCredentials",
+                            "printedName": "DGChatSDK.DGChatCRMCredentials",
+                            "usr": "s:9DGChatSDK0A14CRMCredentialsV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC14crmCredentialsAA0A14CRMCredentialsVSgvg",
+                    "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC14crmCredentialsAA0A14CRMCredentialsVSgvg",
+                    "moduleName": "DGChatSDK",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "configs",
+                "printedName": "configs",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC7configsSDySSypGSgvp",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC7configsSDySSypGSgvp",
+                "moduleName": "DGChatSDK",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC7configsSDySSypGSgvg",
+                    "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC7configsSDySSypGSgvg",
+                    "moduleName": "DGChatSDK",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "DGChatSDK.GeniusChatView.Coordinator",
+                    "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorCAEycfc",
+                "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorCAEycfc",
+                "moduleName": "DGChatSDK",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC",
+            "mangledName": "$s9DGChatSDK14GeniusChatViewV11CoordinatorC",
+            "moduleName": "DGChatSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "DGChatDelegate",
+                "printedName": "DGChatDelegate",
+                "usr": "s:9DGChatSDK0A8DelegateP",
+                "mangledName": "$s9DGChatSDK0A8DelegateP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9DGChatSDK14GeniusChatViewV",
+        "mangledName": "$s9DGChatSDK14GeniusChatViewV",
+        "moduleName": "DGChatSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "DGChatSDK.GeniusChatView.Coordinator",
+                    "usr": "s:9DGChatSDK14GeniusChatViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "DGChatSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BidirectionalCollection",
+        "printedName": "BidirectionalCollection",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "suffix",
+            "printedName": "suffix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.SubSequence"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SK9DGChatSDKE6suffix5while11SubSequenceQzSb7ElementQzKXE_tKF",
+            "mangledName": "$sSK9DGChatSDKE6suffix5while11SubSequenceQzSb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.BidirectionalCollection>",
+            "sugared_genericSig": "<Self where Self : Swift.BidirectionalCollection>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startOfSuffix",
+            "printedName": "startOfSuffix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Index"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SK9DGChatSDKE13startOfSuffix5while5IndexQzSb7ElementQzKXE_tKF",
+            "mangledName": "$sSK9DGChatSDKE13startOfSuffix5while5IndexQzSb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.BidirectionalCollection>",
+            "sugared_genericSig": "<Self where Self : Swift.BidirectionalCollection>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trimming",
+            "printedName": "trimming(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.SubSequence"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SK9DGChatSDKE8trimming5while11SubSequenceQzSb7ElementQzKXE_tKF",
+            "mangledName": "$sSK9DGChatSDKE8trimming5while11SubSequenceQzSb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.BidirectionalCollection>",
+            "sugared_genericSig": "<Self where Self : Swift.BidirectionalCollection>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trimmingSuffix",
+            "printedName": "trimmingSuffix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.SubSequence"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SK9DGChatSDKE14trimmingSuffix5while11SubSequenceQzSb7ElementQzKXE_tKF",
+            "mangledName": "$sSK9DGChatSDKE14trimmingSuffix5while11SubSequenceQzSb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.BidirectionalCollection>",
+            "sugared_genericSig": "<Self where Self : Swift.BidirectionalCollection>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trim",
+            "printedName": "trim(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SK9DGChatSDKSmRzrlE4trim5whileySb7ElementSTQzKXE_tKF",
+            "mangledName": "$sSK9DGChatSDKSmRzrlE4trim5whileySb7ElementSTQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.BidirectionalCollection, τ_0_0 : Swift.RangeReplaceableCollection>",
+            "sugared_genericSig": "<Self where Self : Swift.BidirectionalCollection, Self : Swift.RangeReplaceableCollection>",
+            "declAttributes": [
+              "Rethrows",
+              "Mutating",
+              "AccessControl",
+              "DisfavoredOverload",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trimSuffix",
+            "printedName": "trimSuffix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SK9DGChatSDKSmRzrlE10trimSuffix5whileySb7ElementSTQzKXE_tKF",
+            "mangledName": "$sSK9DGChatSDKSmRzrlE10trimSuffix5whileySb7ElementSTQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.BidirectionalCollection, τ_0_0 : Swift.RangeReplaceableCollection>",
+            "sugared_genericSig": "<Self where Self : Swift.BidirectionalCollection, Self : Swift.RangeReplaceableCollection>",
+            "declAttributes": [
+              "Rethrows",
+              "Mutating",
+              "AccessControl",
+              "DisfavoredOverload",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trim",
+            "printedName": "trim(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SK9DGChatSDK11SubSequenceQzRszrlE4trim5whileySb7ElementQzKXE_tKF",
+            "mangledName": "$sSK9DGChatSDK11SubSequenceQzRszrlE4trim5whileySb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.BidirectionalCollection, τ_0_0 == τ_0_0.SubSequence>",
+            "sugared_genericSig": "<Self where Self : Swift.BidirectionalCollection, Self == Self.SubSequence>",
+            "declAttributes": [
+              "Rethrows",
+              "Mutating",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trimSuffix",
+            "printedName": "trimSuffix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SK9DGChatSDK11SubSequenceQzRszrlE10trimSuffix5whileySb7ElementQzKXE_tKF",
+            "mangledName": "$sSK9DGChatSDK11SubSequenceQzRszrlE10trimSuffix5whileySb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.BidirectionalCollection, τ_0_0 == τ_0_0.SubSequence>",
+            "sugared_genericSig": "<Self where Self : Swift.BidirectionalCollection, Self == Self.SubSequence>",
+            "declAttributes": [
+              "Rethrows",
+              "Mutating",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "Mutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:SK",
+        "mangledName": "$sSK",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 : Swift.Collection, τ_0_0.Indices : Swift.BidirectionalCollection, τ_0_0.SubSequence : Swift.BidirectionalCollection>",
+        "sugared_genericSig": "<Self : Swift.Collection, Self.Indices : Swift.BidirectionalCollection, Self.SubSequence : Swift.BidirectionalCollection>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Collection",
+        "printedName": "Collection",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "endOfPrefix",
+            "printedName": "endOfPrefix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Index"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sl9DGChatSDKE11endOfPrefix5while5IndexQzSb7ElementQzKXE_tKF",
+            "mangledName": "$sSl9DGChatSDKE11endOfPrefix5while5IndexQzSb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection>",
+            "sugared_genericSig": "<Self where Self : Swift.Collection>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trimmingPrefix",
+            "printedName": "trimmingPrefix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.SubSequence"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sl9DGChatSDKE14trimmingPrefix5while11SubSequenceQzSb7ElementQzKXE_tKF",
+            "mangledName": "$sSl9DGChatSDKE14trimmingPrefix5while11SubSequenceQzSb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection>",
+            "sugared_genericSig": "<Self where Self : Swift.Collection>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trimPrefix",
+            "printedName": "trimPrefix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sl9DGChatSDKSmRzrlE10trimPrefix5whileySb7ElementQzKXE_tKF",
+            "mangledName": "$sSl9DGChatSDKSmRzrlE10trimPrefix5whileySb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RangeReplaceableCollection>",
+            "sugared_genericSig": "<Self where Self : Swift.RangeReplaceableCollection>",
+            "declAttributes": [
+              "Rethrows",
+              "Mutating",
+              "AccessControl",
+              "DisfavoredOverload",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trimPrefix",
+            "printedName": "trimPrefix(while:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0.Element) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Element"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sl9DGChatSDK11SubSequenceQzRszrlE10trimPrefix5whileySb7ElementQzKXE_tKF",
+            "mangledName": "$sSl9DGChatSDK11SubSequenceQzRszrlE10trimPrefix5whileySb7ElementQzKXE_tKF",
+            "moduleName": "DGChatSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Collection, τ_0_0 == τ_0_0.SubSequence>",
+            "sugared_genericSig": "<Self where Self : Swift.Collection, Self == Self.SubSequence>",
+            "declAttributes": [
+              "Rethrows",
+              "Mutating",
+              "AccessControl",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "Mutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:Sl",
+        "mangledName": "$sSl",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 : Swift.Sequence, τ_0_0.Element == τ_0_0.SubSequence.Element, τ_0_0.Index : Swift.Comparable, τ_0_0.Index == τ_0_0.Indices.Element, τ_0_0.Indices : Swift.Collection, τ_0_0.Indices == τ_0_0.Indices.SubSequence, τ_0_0.SubSequence : Swift.Collection, τ_0_0.SubSequence == τ_0_0.SubSequence.SubSequence, τ_0_0.Indices.Element == τ_0_0.Indices.Index, τ_0_0.Indices.Index == τ_0_0.SubSequence.Index>",
+        "sugared_genericSig": "<Self : Swift.Sequence, Self.Element == Self.SubSequence.Element, Self.Index : Swift.Comparable, Self.Index == Self.Indices.Element, Self.Indices : Swift.Collection, Self.Indices == Self.Indices.SubSequence, Self.SubSequence : Swift.Collection, Self.SubSequence == Self.SubSequence.SubSequence, Self.Indices.Element == Self.Indices.Index, Self.Indices.Index == Self.SubSequence.Index>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Character",
+        "printedName": "Character",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isSlash",
+            "printedName": "isSlash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SJ9DGChatSDKE7isSlashSbvp",
+            "mangledName": "$sSJ9DGChatSDKE7isSlashSbvp",
+            "moduleName": "DGChatSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SJ9DGChatSDKE7isSlashSbvg",
+                "mangledName": "$sSJ9DGChatSDKE7isSlashSbvg",
+                "moduleName": "DGChatSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCodeBlock",
+            "printedName": "isCodeBlock",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SJ9DGChatSDKE11isCodeBlockSbvp",
+            "mangledName": "$sSJ9DGChatSDKE11isCodeBlockSbvp",
+            "moduleName": "DGChatSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SJ9DGChatSDKE11isCodeBlockSbvg",
+                "mangledName": "$sSJ9DGChatSDKE11isCodeBlockSbvg",
+                "moduleName": "DGChatSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SJ",
+        "mangledName": "$sSJ",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 13,
+      "value": "\"{{VERSION}}\""
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 369,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 486,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 639,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 689,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3029,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4862,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5361,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5787,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6606,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7127,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChat.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7579,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatAction.swift",
+      "kind": "StringLiteral",
+      "offset": 2450,
+      "length": 7,
+      "value": "\"click\""
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatAction.swift",
+      "kind": "StringLiteral",
+      "offset": 2480,
+      "length": 12,
+      "value": "\"dimensions\""
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatContentController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 240,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatContentController.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 12,
+      "value": "\"logHandler\""
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 345,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 642,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 933,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1125,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1166,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1242,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1320,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "Array",
+      "offset": 1642,
+      "length": 71,
+      "value": "[\"mp4\", \"mov\", \"m4v\", \"mp3\", \"wav\", \"m4a\", \"avi\", \"flv\", \"wmv\", \"mpeg\"]"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "Array",
+      "offset": 1761,
+      "length": 59,
+      "value": "[\"jpg\", \"jpeg\", \"png\", \"gif\", \"bmp\", \"tiff\", \"tif\", \"heic\"]"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "Array",
+      "offset": 1866,
+      "length": 17,
+      "value": "[\"tel\", \"mailto\"]"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2454,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2460,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2640,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGChatView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17403,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/maiquan\/Documents\/Work\/Digiruu\/digital_genius\/develop_repo\/Sources\/DGChatSDK\/DGWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 842,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}
