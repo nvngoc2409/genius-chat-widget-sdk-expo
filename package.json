@@ -1,6 +1,6 @@
 {
   "name": "genius-chat-expo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Digital Genius Chat Expo Module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
