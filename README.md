@@ -1,6 +1,6 @@
-# genius-chat-expo
+# DGChatSDK
 
-Digital Genius Chat Expo Module
+Expo SDK Module for DigitalGenius Chat.
 
 # Installation in managed Expo projects
 
@@ -23,25 +23,16 @@ Run `npx pod-install` after installing the npm package.
 
 ### Configure for Android
 
-
 No additional setup necessary.
 
-### Example
+## Basic usage
 
 ```JavaScript
 export default function App() {
-  useEffect(() => {
-    const onWidgetEmbedded = DGChatModule.addOnWidgetEmbeddedListener(()=>{
-      DGChatModule.launchWidget();
-    });
-
-    return () => onWidgetEmbedded.remove();
-  }, []);
-
   DGChatModule.showDGChatView(
     "your_widget_id",
     "your_environment",
-    {"generalSettings":{ "isChatLauncherEnabled" : true}, "locale" : "en-US"}, // optional custom configs
+    {}, //ooptional custom configs
     "crm_platform", // optional
     "crm_version", // optional
   );
@@ -51,6 +42,29 @@ export default function App() {
     </View>
   );
 }
+```
+
+### Additional custom configs
+You can use config to customise your chat widget style. Eg: floating button position, proactive buttons
+
+```JavaScript
+   configs = {
+      proactiveButtonsSettings: {
+        isEnabled: true,
+        questions: ["A", "B", "C"],
+        answers: ["X", "Y", "Z"]
+      },
+      generalSettings: {
+        isChatLauncherEnabled: true
+      },
+    }
+  DGChatModule.showDGChatView(
+    "your_widget_id",
+    "your_environment",
+    configs, //ooptional custom configs
+    "crm_platform", // optional
+    "crm_version", // optional
+  );
 ```
 
 ### Additional Methods
