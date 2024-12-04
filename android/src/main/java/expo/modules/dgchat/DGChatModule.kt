@@ -37,6 +37,7 @@ class DGChatModule : Module() {
             "newConversationStarted",
             "onChatInitialised",
             "onChatInitialisedError",
+            "onChatEndClick",
         )
 
         // Defines a JavaScript synchronous function that runs the native code on the JavaScript thread.
