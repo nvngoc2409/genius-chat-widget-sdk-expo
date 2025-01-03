@@ -130,16 +130,22 @@ extension DGChatModule {
         
         // Retrieve the property names from the JavaScriptObject
         let propertyNames = jsObject.getPropertyNames()
-        
-        // Iterate through each property name
         for key in propertyNames {
             // Use `get` method to retrieve the value for each key
             if let value = self.convertJavaScriptValueToSwiftValue(jsValue: jsObject.getProperty(key)) {
                 result[key] = value
             }
         }
-        
         return result
+    }
+    
+    func isJavaScriptObjectArray(_ jsObject: JavaScriptObject) -> Bool {
+        // Check if the object has a "length" property and if it is a number (arrays typically have this property)
+        guard let lengthValue = try? jsObject.getProperty("length"),
+              lengthValue.isNumber() else {
+            return false
+        }
+        return true
     }
     
     func convertJavaScriptValueToSwiftValue(jsValue: JavaScriptValue) -> Any? {
@@ -154,12 +160,33 @@ extension DGChatModule {
             return jsValue.getDouble()
         } else if jsValue.isString() {
             return jsValue.getString()
+        } else if jsValue.isObject() {
+            // check if jsValue is array or object
+            let object = jsValue.getObject()
+            if isJavaScriptObjectArray(object) {
+                return convertJavaScriptArrayToNative(object)
+            } else {
+                return convertJavaScriptObjectToDictionary(jsObject: object)
+            }
         } else {
             // Handle unsupported types if necessary
             print("Unsupported JavaScript value type.")
             return nil
         }
     }
+    
+    func convertJavaScriptArrayToNative(_ jsObject: JavaScriptObject) -> [Any] {
+        let propertyNames = jsObject.getPropertyNames()
+        var result = [Any]()
+        for key in propertyNames {
+            // Use `get` method to retrieve the value for each key
+            if let value = self.convertJavaScriptValueToSwiftValue(jsValue: jsObject.getProperty(key)) {
+                result.append(value)
+            }
+        }
+        return result
+    }
+
     
 }
 

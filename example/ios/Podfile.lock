@@ -1,6 +1,6 @@
 PODS:
   - boost (1.83.0)
-  - DGChatModule (1.0.0):
+  - DGChatModule (1.0.5):
     - ExpoModulesCore
   - DoubleConversion (1.1.6)
   - EXConstants (16.0.2):
@@ -1403,7 +1403,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost: d3f49c53809116a5d38da093a8aa78bf551aed09
-  DGChatModule: 566ee1826629c2a1cdd9a79327c862dcec6d0e4f
+  DGChatModule: 229b90ac0df5bf95fc23a0af4d0f37f4d6a2f324
   DoubleConversion: 76ab83afb40bddeeee456813d9c04f67f78771b5
   EXConstants: 409690fbfd5afea964e5e9d6c4eb2c2b59222c59
   Expo: 9b6666ef2fedcfc89c5b9be2aa1ce12b81f9e7f5
@@ -1464,7 +1464,7 @@ SPEC CHECKSUMS:
   React-utils: f242eb7e7889419d979ca0e1c02ccc0ea6e43b29
   ReactCommon: f7da14a8827b72704169a48c929bcde802698361
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
-  Yoga: 2246eea72aaf1b816a68a35e6e4b74563653ae09
+  Yoga: 950bbfd7e6f04790fdb51149ed51df41f329fcc8
 
 PODFILE CHECKSUM: 50cae3c678925abb786b1ab9a0157db967cc1d29
 
