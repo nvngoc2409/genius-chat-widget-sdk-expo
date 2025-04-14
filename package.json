@@ -30,12 +30,12 @@
   "homepage": "https://github.com/DigitalGenius/genius-chat-widget-sdk-expo#readme",
   "dependencies": {
     "@react-native-community/cli-platform-ios": "^15.0.0",
-    "expo": "^51.0.38"
+    "expo": "^52.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.25",
+    "@types/react": "~18.3.12",
     "expo-module-scripts": "^3.5.2",
-    "expo-modules-core": "^1.12.24"
+    "expo-modules-core": "~2.2.3"
   },
   "peerDependencies": {
     "expo": "*",
