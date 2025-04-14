@@ -30,7 +30,7 @@
   "homepage": "https://github.com/DigitalGenius/genius-chat-widget-sdk-expo#readme",
   "dependencies": {
     "@react-native-community/cli-platform-ios": "^15.0.0",
-    "expo": "^51.0.38"
+    "expo": "^52.0.44"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
