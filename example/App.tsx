@@ -2,15 +2,13 @@ import { StyleSheet, Text, Button, View } from 'react-native';
 
 import * as DGChatModule from 'genius-chat-expo';
 
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 
 export default function App() {
   useEffect(() => {
-    const onWidgetEmbedded = DGChatModule.addOnWidgetEmbeddedListener(()=>{
+    const onWidgetEmbedded = DGChatModule.addOnWidgetEmbeddedListener(() => {
       console.log('onWidgetEmbedded')
     });
-
-    return () => onWidgetEmbedded.remove();
   }, []);
 
   const widgetConfigs = {
@@ -59,7 +57,7 @@ export default function App() {
 
   const onSendSystemMessage = () => {
     let payload = {
-      "name": "auth_token", 
+      "name": "auth_token",
       "payload": "123"
     }
     DGChatModule.sendSystemMessage(payload);
@@ -70,8 +68,8 @@ export default function App() {
   };
 
   DGChatModule.showDGChatView(
-    "Place your widgetId here",
-    "Place your environment here",
+    "f0c07546-af4c-4963-9e23-3e9343eaf13b",
+    "dev.us",
     widgetConfigs,
     null,
     null

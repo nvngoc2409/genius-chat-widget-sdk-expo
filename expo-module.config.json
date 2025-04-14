@@ -1,9 +1,18 @@
 {
-  "platforms": ["ios", "tvos", "android", "web"],
+  "platforms": [
+    "ios",
+    "tvos",
+    "android",
+    "web"
+  ],
   "ios": {
-    "modules": ["DGChatModule"]
+    "modules": [
+      "DGChatModule"
+    ]
   },
   "android": {
-    "modules": ["expo.modules.dgchat.DGChatModule"]
+    "modules": [
+      "expo.modules.dgchat.DGChatModule"
+    ]
   }
 }

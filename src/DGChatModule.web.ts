@@ -1,7 +1,31 @@
-import { EventEmitter } from 'expo-modules-core';
+import { registerWebModule, NativeModule } from 'expo';
 
-const emitter = new EventEmitter({} as any);
+import { DGChatModuleEvents } from './DGChatModule.types';
 
-export default {
-  PI: Math.PI
-};
+class DGChatModule extends NativeModule<DGChatModuleEvents> {
+  PI = Math.PI;
+
+  showDGChatView(widgetId: string, env: string, customConfigs: object | null, crmPlatform: string | null, crmVersion: string | null) {
+    return
+  }
+
+  hideDGChatView() {
+  }
+
+  launchWidget() {
+  }
+
+  initProactiveButtons(questions: Array<string>, answers: Array<string>) {
+  }
+
+  sendMessage(message: string) {
+  }
+
+  sendSystemMessage(payload: object) {
+  }
+
+  resetChat() {
+  }
+}
+
+export default registerWebModule(DGChatModule);
